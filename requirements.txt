@@ -1,0 +1,31 @@
+transformers==4.36.0
+datasets==2.16.1
+evaluate==0.4.1
+accelerate==0.25.0
+bitsandbytes==0.41.3.post1
+safetensors==0.4.1
+sentencepiece==0.1.99
+einops==0.7.0
+scipy==1.11.4
+scikit-learn==1.3.2
+numpy==1.26.2
+python-dotenv==1.0.0
+wandb==0.16.1
+shortuuid==1.0.11
+gensim==4.3.2
+# python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps lang2vec
+lang2vec==1.1.6
+# (use this for old cuda drivers) -f https://download.pytorch.org/whl/cu118 torch==2.1.1
+torch==2.1.1
+-e peft # or install from pip
+# clone the repo first https://github.com/gsoykan/lm-evaluation-harness.git
+-e lm-evaluation-harness # or install from pip
+
+# install protobuf if you encounter following error =>
+#   The new behaviour of LlamaTokenizer (with `self.legacy = False`)
+#   requires the protobuf library but it was not found in your environment.
+# protobuf==4.25.1
+
+# for ImportError: cannot import name 'COMMON_SAFE_ASCII_CHARACTERS'
+#   from 'charset_normalizer.constant'
+# chardet==5.2.0

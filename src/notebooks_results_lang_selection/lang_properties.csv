@@ -1,0 +1,68 @@
+Language,"ISO 639-1
+Code","ISO 639-3
+Code",language family,"primary 
+subfamily",rest of subfamilies,SVO Order,SCRIPT,"AVAILABILITY
+ (TAXONOMY)
+SCORE",,"XNLI avail.
+(bg, el missing)","XCOPA
+(ht, qu missing)","XSTORY
+(eu missing)",XWINOGRAD,PAWSX,,"Language
+Family","Language
+Family 
+(By High
+ Resource)",Typology,Learned,Geo,"Semantic 
+(Colex2Lang)",Random
+Arabic,ar,ara,F_Afro-Asiatic,F_Semitic,F_West_Semitic / F_Central_Semitic / F_Arabian,S_SVO/S_VSO,Arabic,3,,T,,T,,,,,T,,,,,
+Hebrew,he,heb,F_Afro-Asiatic,F_Semitic,F_West_Semitic / F_Central_Semitic / F_Northwest_Semitic / F_Canaanite / F_Hebrewic,S_SVO,Hebrew,3,,,,,,,,T,,,,T,,
+Swahili,sw,swa,F_Atlantic-Congo,F_Volta-Congo,F_Benue-Congo / F_Bantoid / F_Southern_Bantoid / F_Narrow_Bantu / F_East_Bantu / F_Northeast_Savanna_Bantu / F_Northeast_Coastal_Bantu / F_Coastal_NEC_Bantu / F_Sabaki-Swahili,S_SVO,Latin,2,,T,T,T,,,,,T,T,,,,
+Xhosa,xh,xho,F_Atlantic-Congo,F_Volta-Congo,F_Benue-Congo / F_Bantoid / F_Southern_Bantoid / F_Narrow_Bantu / F_East_Bantu / F_Southern_Bantu-Makua / F_Nguni-Tsonga / F_Nguni_(S.40) / F_Zulu-Xhosa,S_SVO,Latin,2,,T,,,,,,T,,,,,,
+Vietnamese,vi,vie,F_Austroasiatic,F_Vietic,F_Viet-Muong,S_SVO,Latin (Quốc ngữ),4,,T,T,,,,,T,T,T,T,T,T,T
+Khmer,km,khm,F_Austroasiatic,F_Khmeric,,S_SOV,Khmer,1,,,,,,,,,,,T,,,
+Indonesian,id,ind,F_Austronesian,F_Nuclear_Austronesian,F_Malayo-Polynesian / F_Malayo-Sumbawan / F_North_and_East_Malayo-Sumbawan / F_Malayic / F_Nuclear_Malayic / F_Indonesian_Archipelago_Malay,S_SOV,Latin,3,,,T,T,,,,,T,,,T,,T
+Tagalog,tl,tgl,F_Austronesian,F_Nuclear_Austronesian,F_Malayo-Polynesian / F_Greater_Central_Philippine / F_Central_Philippine / F_Tagalogic / F_Tagalog-Filipino,S_SOV,Latin,3,,,,,,,,T,,T,,,T,
+Tamil,ta,tam,F_Dravidian,F_South_Dravidian,F_South_Dravidian_I / F_Tamil-Kannada / F_Tamil-Kota / F_Tamil-Toda / F_Tamil-Irula / F_Tamil-Kodagu / F_Tamil-Malayalam / F_Tamiloid,S_SVO,Tamil,3,,,T,,,,,,T,T,T,T,,T
+Malayalam,ml,mal,F_Dravidian,F_South_Dravidian,F_South_Dravidian_I / F_Tamil-Kannada / F_Tamil-Kota / F_Tamil-Toda / F_Tamil-Irula / F_Tamil-Kodagu / F_Tamil-Malayalam / F_Malayalamoid,S_SOV,Malayalam,1,,,,,,,,T,,,,,T,T
+Telugu,te,tel,F_Dravidian,F_Central_Dravidian,F_Teluguic,S_VSO,Telugu,1,,,,T,,,,,,,,,,
+German,de,deu,F_Indo-European,F_Germanic,F_Northwest_Germanic / F_West_Germanic / F_Franconian / F_High_Franconian,S_SOV,Latin,5,,T,,,,T,,,,T,,,,
+English,en,eng,F_Indo-European,F_Germanic,F_Northwest_Germanic / F_West_Germanic / F_North_Sea_Germanic / F_Anglo-Frisian / F_Anglian / F_Mercian / F_Macro-English,S_SOV,Latin,5,,T,,T,T,T,,T,T,,,,,
+Spanish,es,spa,F_Indo-European,F_Italic,F_Latino-Faliscan / F_Latinic / F_Imperial_Latin / F_Romance / F_Italo-Western_Romance / F_Western_Romance / F_Shifted_Western_Romance / F_Southwestern_Shifted_Romance / F_West_Ibero-Romance / F_Castilic,S_SVO,Latin,5,,T,,T,,T,,,,,,,,
+French,fr,fra,F_Indo-European,F_Italic,F_Latino-Faliscan / F_Latinic / F_Imperial_Latin / F_Romance / F_Italo-Western_Romance / F_Western_Romance / F_Shifted_Western_Romance / F_Northwestern_Shifted_Romance / F_Gallo-Rhaetian / F_Oil,S_SVO/S_VSO/S_VOS/S_OVS,Latin,5,,T,,,T,T,,,,,,T,,
+Czech,cs,ces,F_Indo-European,F_Balto-Slavic,F_Slavic / F_West_Slavic / F_Czech-Slovak / F_Czech-Lach,S_SVO,Latin,4,,,,,,,,,,,T,,,T
+Persian,fa,fas,F_Indo-European,F_Indo-Iranian,F_Iranian / F_Western_Iranian / F_Southwestern_Iranian / F_Farsic-Caucasian_Tat,S_SVO,Persian (Arabic script),4,,,,,,,,,,T,,,,
+Hindi,hi,hin,F_Indo-European,F_Indo-Iranian,F_Indo-Aryan / F_Indo-Aryan_Central_zone / F_Subcontinental_Central_Indo-Aryan / F_Western_Hindi / F_Hindustani,S_SVO,Devanagari,4,,T,,T,,,,,,T,,,,T
+Croatian,hr,hrv,F_Indo-European,F_Balto-Slavic,F_Slavic / F_South_Slavic / F_Western_South_Slavic / F_Molise-SKB / F_South-Western_Slavic,S_SVO,Latin,4,,,,,,,,,,,T,T,,
+Italian,it,ita,F_Indo-European,F_Italic,F_Latino-Faliscan / F_Latinic / F_Imperial_Latin / F_Romance / F_Italo-Western_Romance / F_Italo-Dalmatian / F_Italian_Romance,S_SVO/S_SOV,Latin,4,,,T,,,,,,,T,,,,
+Dutch,nl,nld,F_Indo-European,F_Germanic,F_Northwest_Germanic / F_West_Germanic / F_Franconian / F_Low_Franconian / F_Macro-Dutch / F_Middle-Modern_Dutch / F_Modern_Dutch,S_SVO,Latin,4,,,,,,,,,,,T,,,
+Polish,pl,pol,F_Indo-European,F_Balto-Slavic,F_Slavic / F_West_Slavic / F_Lechitic,S_SOV,Latin,4,,,,,,,,,,,,,T,
+Portuguese,pt,por,F_Indo-European,F_Italic,F_Latino-Faliscan / F_Latinic / F_Imperial_Latin / F_Romance / F_Italo-Western_Romance / F_Western_Romance / F_Shifted_Western_Romance / F_Southwestern_Shifted_Romance / F_West_Ibero-Romance,S_SVO,Latin,4,,,,,T,,,,,,T,,,T
+Russian,ru,rus,F_Indo-European,F_Balto-Slavic,F_Slavic / F_East_Slavic,S_SVO,Cyrillic,4,,T,,T,T,,,,,,,,,
+Swedish,sv,swe,F_Indo-European,F_Germanic,F_Northwest_Germanic / F_North_Germanic / F_East_Scandinavian / F_Macro-Swedish,S_SOV,Latin,4,,,,,,,,,,,,,T,
+Afrikaans,af,afr,F_Indo-European,F_Germanic,F_Northwest_Germanic / F_West_Germanic / F_Franconian / F_Low_Franconian / F_Afrikaansic,S_SVO/S_SOV,Latin,3,,,,,,,,,,,,T,,
+Bengali,bn,ben,F_Indo-European,F_Indo-Iranian,F_Indo-Aryan / F_Indo-Aryan_Eastern_zone / F_Oriya-Gauda-Kamrupa / F_Gauda-Kamrupa / F_Gauda-Banga,S_SOV,Bengali,3,,,,,,,,,,T,,T,T,
+Galician,gl,glg,F_Indo-European,F_Italic,F_Latino-Faliscan / F_Latinic / F_Imperial_Latin / F_Romance / F_Italo-Western_Romance / F_Western_Romance / F_Shifted_Western_Romance / F_Southwestern_Shifted_Romance / F_West_Ibero-Romance,S_SOV,Latin,3,,,,,,,,,,,,,T,
+Lithuanian,lt,lit,F_Indo-European,F_Balto-Slavic,F_Eastern_Baltic,S_SVO,Latin,3,,,,,,,,,,,T,,,
+Latvian,lv,lav,F_Indo-European,F_Balto-Slavic,F_Eastern_Baltic,S_SVO,Latin,3,,,,,,,,,,,T,,,T
+Romanian,ro,ron,F_Indo-European,F_Italic,F_Latino-Faliscan / F_Latinic / F_Imperial_Latin / F_Romance / F_Eastern_Romance / F_Macro-Romanian,S_SVO,Latin,3,,,,,,,,,,,,,,
+Slovenian,sl,slv,F_Indo-European,F_Balto-Slavic,F_Slavic / F_South_Slavic / F_Western_South_Slavic,S_SVO,Latin,3,,,,,,,,,,,T,,T,
+Ukrainian,uk,ukr,F_Indo-European,F_Balto-Slavic,F_Slavic / F_East_Slavic / F_Ukrainian-Rusyn,S_SOV,Cyrillic,3,,,,,,,,,,,T,,T,
+Urdu,ur,urd,F_Indo-European,F_Indo-Iranian,F_Indo-Aryan / F_Indo-Aryan_Central_zone / F_Subcontinental_Central_Indo-Aryan / F_Western_Hindi / F_Hindustani,S_SVO,Arabic (Nastaʿlīq),3,,T,,,,,,,,,,T,,
+Marathi,mr,mar,F_Indo-European,F_Indo-Iranian,F_Indo-Aryan / F_Indo-Aryan_Southern_zone / F_Maharastric / F_Marathic,S_SOV,Devanagari,2,,,,,,,,,,,,,,
+Gujarati,gu,guj,F_Indo-European,F_Indo-Iranian,F_Indo-Aryan / F_Indo-Aryan_Central_zone / F_Subcontinental_Central_Indo-Aryan / F_Gujarati-Rajasthani / F_Gujaratic,S_SVO,Gujarati,1,,,,,,,,,,,,,T,T
+Macedonian,mk,mkd,F_Indo-European,F_Balto-Slavic,F_Slavic / F_South_Slavic / F_Eastern_South_Slavic / F_Macedo-Bulgarian,S_SOV,Cyrillic,1,,,,,,,,,,T,,,,T
+Nepali,ne,nep,F_Indo-European,F_Indo-Iranian,F_Indo-Aryan / F_Indo-Aryan_Northern_zone,S_SOV,Devanagari,1,,,,,,,,,,,,,,
+Pashto,ps,pus,F_Indo-European,F_Indo-Iranian,F_Iranian / F_Eastern_Iranian / F_Southeastern_Iranian / F_Pashto,S_SVO/S_SOV,Arabic (Naskh),1,,,,,,,,,,,,,T,T
+Sinhala,si,sin,F_Indo-European,F_Indo-Iranian,F_Indo-Aryan / F_Sinhalese-Maldivian / F_Sinhalaic,S_SOV,Sinhala,0,,,,,,,,,,,,,,T
+Japanese,ja,jpn,F_Japonic,F_Japanese,F_Japan-Taiwan_Japanese,S_SOV,"Kanji, Hiragana, Katakana",5,,,,,T,T,,T,T,T,,T,,
+Georgian,ka,kat,F_Kartvelian,F_Georgian-Zan,F_Georgic,S_SVO,Georgian,3,,,,,,,,T,T,,,T,T,
+Korean,ko,kor,F_Koreanic,,,S_SVO,Hangul,4,,,,,,T,,T,T,,T,,T,T
+Mongolian,mn,mon,F_Mongolic,F_Eastern_Mongolic,F_Oirat-Khalkha / F_Khalkha-Buriat,S_SOV,Cyrillic ,1,,,,,,,,T,T,,,T,,
+Burmese,my,mya,F_Sino-Tibetan,F_Burmo-Qiangic,F_Lolo-Burmese / F_Burmish / F_Southern_Burmish / F_Nuclear_Southern_Burmish / F_Old-Modern_Burmese,S_SVO,Burmese,1,,,,T,,,,T,,,T,,T,
+Chinese,zh,zho,F_Sino-Tibetan,,,S_SVO/S_SOV,Simplified Chinese ,1,,,T,T,T,T,,,T,T,,,,T
+Thai,th,tha,F_Tai-Kadai,F_Kam-Tai,F_Be-Tai / F_Daic / F_Central-Southwestern_Tai / F_Wenma-Southwestern_Tai / F_Sapa-Southwestern_Tai / F_Southwestern_Tai / F_Sputhwestern_Thai_PH / F_Lao-Thai,S_SOV,Thai,3,,T,T,,,,,T,T,,,,,
+Turkish,tr,tur,F_Turkic,F_Common_Turkic,F_Oghuz-Kipchak-Uyghur / F_Oghuz / F_West_Oghuz / F_Nuclear_West_Oghuz,S_SVO,Latin,4,,T,T,,,,,,T,,,,,
+Kazakh,kk,kaz,F_Turkic,F_Common_Turkic,F_Oghuz-Kipchak-Uyghur / F_Oghuz / F_Kipchak / F_South_Kipchak,S_SVO,Cyrillic,3,,,,,,,,,,,,T,,
+Azerbaijani,az,aze,F_Turkic,F_Common_Turkic,F_Oghuz-Kipchak-Uyghur,S_SOV,Latin ,1,,,,,,,,T,,T,,,,
+Finnish,fi,fin,F_Uralic,F_Finnic,F_Nuclear_Finnish,S_SVO,Latin,4,,,,,,,,T,T,,T,,,
+Estonian,et,est,F_Uralic,F_Finnic,,S_SVO,Latin,3,,,T,,,,,,,T,,T,,
+,,,A_uniq lang family,,,,,,,,,,,,,,,,,,,
+,,,14,,,,,,,,,,,,,,,,,,,

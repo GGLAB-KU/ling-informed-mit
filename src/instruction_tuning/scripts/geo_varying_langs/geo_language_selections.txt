@@ -1,0 +1,60 @@
+**** LANGUAGE COUNT UPDATED, 1 languages
+az
+az
+az
+**** LANGUAGE COUNT UPDATED, 2 languages
+bn,mk
+bn,mk
+bn,mk
+**** LANGUAGE COUNT UPDATED, 3 languages
+af,bn,hr
+af,bn,hr
+af,bn,hr
+**** LANGUAGE COUNT UPDATED, 4 languages
+af,hi,hr,vi
+af,hi,hr,vi
+af,hi,hr,vi
+**** LANGUAGE COUNT UPDATED, 5 languages
+af,de,ka,mr,vi
+af,cs,fa,ko,my
+af,az,de,mr,vi
+**** LANGUAGE COUNT UPDATED, 6 languages
+af,az,de,km,ko,mr
+af,az,de,km,ko,mr
+af,az,cs,km,ko,te
+**** LANGUAGE COUNT UPDATED, 7 languages
+af,de,fa,he,km,ko,te
+af,fr,kk,km,ko,te,uk
+af,de,kk,km,ko,te,tr
+**** LANGUAGE COUNT UPDATED, 8 languages
+af,fr,he,kk,km,ko,lt,te
+af,fa,fr,he,km,ko,pl,te
+af,fr,he,kk,km,ko,lt,mr
+**** LANGUAGE COUNT UPDATED, 9 languages
+af,fr,he,hi,kk,km,ko,pl,ta
+af,he,id,kk,ko,pl,pt,te,vi
+af,et,fr,he,hr,kk,km,ko,mr
+**** LANGUAGE COUNT UPDATED, 10 languages
+af,bn,fr,kk,km,ko,lt,ta,tr,ur
+af,et,fr,he,hr,id,kk,ko,mr,vi
+af,bn,et,fr,he,hr,kk,km,ko,mr
+**** LANGUAGE COUNT UPDATED, 11 languages
+af,bn,et,fr,he,hr,kk,km,ko,ta,ur
+af,bn,et,fr,he,hr,kk,km,ko,ta,ur
+af,bn,et,fr,he,hr,kk,km,ko,ta,ur
+**** LANGUAGE COUNT UPDATED, 12 languages
+af,bn,et,fr,gu,he,hr,id,kk,ko,ta,vi
+af,bn,et,fr,he,hr,id,kk,ko,ta,ur,vi
+af,bn,et,fr,he,hr,ja,km,mn,ps,ru,ta
+**** LANGUAGE COUNT UPDATED, 13 languages
+af,bn,et,fr,he,hr,ja,kk,km,mn,sw,ta,ur
+af,bn,et,fr,gu,he,hr,id,ja,kk,mn,ta,vi
+af,et,fr,he,hi,hr,id,ja,kk,mn,sw,ta,th
+**** LANGUAGE COUNT UPDATED, 20 languages
+af,az,bn,et,fa,gu,he,hr,id,ja,km,mn,nl,pt,ru,sw,ta,tl,tr,zh
+af,az,bn,et,fa,gu,he,id,ja,km,mn,nl,pt,ro,ru,sl,sw,ta,tl,zh
+af,az,bn,et,fa,gu,he,id,ja,km,mk,mn,nl,pt,ru,sl,sw,ta,tl,zh
+**** LANGUAGE COUNT UPDATED, 26 languages
+af,az,fi,gu,he,id,ja,kk,km,lv,mn,mr,my,ne,nl,ps,pt,ro,ru,sl,sw,ta,tl,tr,xh,zh
+af,az,bn,et,he,hi,id,ja,kk,km,lt,mn,mr,nl,ps,pt,ro,ru,sl,sw,ta,tl,tr,ur,xh,zh
+af,ar,az,cs,et,he,hi,id,ja,kk,km,mn,mr,my,nl,ps,pt,ro,ru,sl,sw,ta,tl,ur,xh,zh

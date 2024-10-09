@@ -1,0 +1,6 @@
+{
+    "description": "Template used by Bactrian-X.",
+    "prompt_input": "### Input:\n{instruction}\n\n{input}\n\n### Output:\n",
+    "prompt_no_input": "### Input:\n{instruction}\n\n### Output:\n",
+    "response_split": "### Output:"    
+}

@@ -1,0 +1,631 @@
+,Model,Domain,Result Set,Task,Score
+0,bloom3b,semantic,3,pawsx,48.49
+1,bloom3b,semantic,3,xcopa,56.65
+2,bloom3b,semantic,3,xnli,40.72
+3,bloom3b,semantic,3,xstorycloze,59.040000000000006
+4,bloom3b,semantic,3,xwinograd,70.6
+5,bloom3b,semantic,3,SET AVG,55.1
+6,bloom3b,semantic,1,pawsx,49.38
+7,bloom3b,semantic,1,xcopa,56.82000000000001
+8,bloom3b,semantic,1,xnli,40.949999999999996
+9,bloom3b,semantic,1,xstorycloze,59.58
+10,bloom3b,semantic,1,xwinograd,70.96000000000001
+11,bloom3b,semantic,1,SET AVG,55.53800000000001
+12,bloom3b,semantic,2,pawsx,48.53
+13,bloom3b,semantic,2,xcopa,56.88999999999999
+14,bloom3b,semantic,2,xnli,40.550000000000004
+15,bloom3b,semantic,2,xstorycloze,59.51
+16,bloom3b,semantic,2,xwinograd,70.98
+17,bloom3b,semantic,2,SET AVG,55.291999999999994
+18,bloom3b,random,3,pawsx,47.980000000000004
+19,bloom3b,random,3,xcopa,56.93
+20,bloom3b,random,3,xnli,40.96
+21,bloom3b,random,3,xstorycloze,59.48
+22,bloom3b,random,3,xwinograd,71.03
+23,bloom3b,random,3,SET AVG,55.275999999999996
+24,bloom3b,random,2,pawsx,47.85
+25,bloom3b,random,2,xcopa,57.24
+26,bloom3b,random,2,xnli,41.0
+27,bloom3b,random,2,xstorycloze,59.45
+28,bloom3b,random,2,xwinograd,70.62
+29,bloom3b,random,2,SET AVG,55.232000000000006
+30,bloom3b,random,1,pawsx,47.8
+31,bloom3b,random,1,xcopa,56.88999999999999
+32,bloom3b,random,1,xnli,40.68
+33,bloom3b,random,1,xstorycloze,59.77
+34,bloom3b,random,1,xwinograd,70.38
+35,bloom3b,random,1,SET AVG,55.104
+36,bloom3b,all,3,pawsx,49.059999999999995
+37,bloom3b,all,3,xcopa,57.64
+38,bloom3b,all,3,xnli,41.370000000000005
+39,bloom3b,all,3,xstorycloze,59.709999999999994
+40,bloom3b,all,3,xwinograd,70.65
+41,bloom3b,all,3,SET AVG,55.68599999999999
+42,bloom3b,all,2,pawsx,48.74
+43,bloom3b,all,2,xcopa,57.330000000000005
+44,bloom3b,all,2,xnli,40.92
+45,bloom3b,all,2,xstorycloze,59.63
+46,bloom3b,all,2,xwinograd,70.44
+47,bloom3b,all,2,SET AVG,55.412
+48,bloom3b,all,1,pawsx,48.63
+49,bloom3b,all,1,xcopa,57.440000000000005
+50,bloom3b,all,1,xnli,41.199999999999996
+51,bloom3b,all,1,xstorycloze,59.67
+52,bloom3b,all,1,xwinograd,70.47
+53,bloom3b,all,1,SET AVG,55.48199999999999
+54,bloom3b,learned,2,pawsx,49.44
+55,bloom3b,learned,2,xcopa,57.199999999999996
+56,bloom3b,learned,2,xnli,40.77
+57,bloom3b,learned,2,xstorycloze,59.58
+58,bloom3b,learned,2,xwinograd,71.12
+59,bloom3b,learned,2,SET AVG,55.622
+60,bloom3b,learned,3,pawsx,48.79
+61,bloom3b,learned,3,xcopa,56.47
+62,bloom3b,learned,3,xnli,41.14
+63,bloom3b,learned,3,xstorycloze,59.830000000000005
+64,bloom3b,learned,3,xwinograd,71.34
+65,bloom3b,learned,3,SET AVG,55.513999999999996
+66,bloom3b,learned,1,pawsx,48.54
+67,bloom3b,learned,1,xcopa,56.98
+68,bloom3b,learned,1,xnli,40.92
+69,bloom3b,learned,1,xstorycloze,60.150000000000006
+70,bloom3b,learned,1,xwinograd,70.56
+71,bloom3b,learned,1,SET AVG,55.42999999999999
+72,bloom3b,family,1,pawsx,48.8
+73,bloom3b,family,1,xcopa,56.76
+74,bloom3b,family,1,xnli,40.77
+75,bloom3b,family,1,xstorycloze,58.809999999999995
+76,bloom3b,family,1,xwinograd,70.89
+77,bloom3b,family,1,SET AVG,55.206
+78,bloom3b,family,2,pawsx,47.29
+79,bloom3b,family,2,xcopa,57.11000000000001
+80,bloom3b,family,2,xnli,40.99
+81,bloom3b,family,2,xstorycloze,59.27
+82,bloom3b,family,2,xwinograd,71.57
+83,bloom3b,family,2,SET AVG,55.246
+84,bloom3b,family,3,pawsx,49.19
+85,bloom3b,family,3,xcopa,57.24
+86,bloom3b,family,3,xnli,41.11
+87,bloom3b,family,3,xstorycloze,59.3
+88,bloom3b,family,3,xwinograd,70.91
+89,bloom3b,family,3,SET AVG,55.55
+90,bloom3b,geo,2,pawsx,47.94
+91,bloom3b,geo,2,xcopa,57.089999999999996
+92,bloom3b,geo,2,xnli,41.32
+93,bloom3b,geo,2,xstorycloze,59.88
+94,bloom3b,geo,2,xwinograd,71.17999999999999
+95,bloom3b,geo,2,SET AVG,55.48199999999999
+96,bloom3b,geo,3,pawsx,47.04
+97,bloom3b,geo,3,xcopa,57.45
+98,bloom3b,geo,3,xnli,41.36
+99,bloom3b,geo,3,xstorycloze,59.730000000000004
+100,bloom3b,geo,3,xwinograd,70.8
+101,bloom3b,geo,3,SET AVG,55.27600000000001
+102,bloom3b,geo,1,pawsx,48.07
+103,bloom3b,geo,1,xcopa,57.8
+104,bloom3b,geo,1,xnli,40.2
+105,bloom3b,geo,1,xstorycloze,59.88
+106,bloom3b,geo,1,xwinograd,71.43
+107,bloom3b,geo,1,SET AVG,55.476
+108,bloom3b,typo,2,pawsx,47.17
+109,bloom3b,typo,2,xcopa,57.24
+110,bloom3b,typo,2,xnli,41.14
+111,bloom3b,typo,2,xstorycloze,59.75
+112,bloom3b,typo,2,xwinograd,70.85000000000001
+113,bloom3b,typo,2,SET AVG,55.230000000000004
+114,bloom3b,typo,1,pawsx,47.43
+115,bloom3b,typo,1,xcopa,57.269999999999996
+116,bloom3b,typo,1,xnli,41.18
+117,bloom3b,typo,1,xstorycloze,59.45
+118,bloom3b,typo,1,xwinograd,71.43
+119,bloom3b,typo,1,SET AVG,55.352
+120,bloom3b,typo,3,pawsx,47.11
+121,bloom3b,typo,3,xcopa,56.85
+122,bloom3b,typo,3,xnli,41.260000000000005
+123,bloom3b,typo,3,xstorycloze,59.440000000000005
+124,bloom3b,typo,3,xwinograd,70.65
+125,bloom3b,typo,3,SET AVG,55.06200000000001
+126,bloom1_7b,typo,3,pawsx,51.65
+127,bloom1_7b,typo,3,xcopa,55.910000000000004
+128,bloom1_7b,typo,3,xnli,40.27
+129,bloom1_7b,typo,3,xstorycloze,57.65
+130,bloom1_7b,typo,3,xwinograd,67.47999999999999
+131,bloom1_7b,typo,3,SET AVG,54.592000000000006
+132,bloom1_7b,typo,2,pawsx,50.88
+133,bloom1_7b,typo,2,xcopa,55.87
+134,bloom1_7b,typo,2,xnli,40.06
+135,bloom1_7b,typo,2,xstorycloze,58.220000000000006
+136,bloom1_7b,typo,2,xwinograd,68.08
+137,bloom1_7b,typo,2,SET AVG,54.622
+138,bloom1_7b,typo,1,pawsx,51.33
+139,bloom1_7b,typo,1,xcopa,55.779999999999994
+140,bloom1_7b,typo,1,xnli,39.98
+141,bloom1_7b,typo,1,xstorycloze,57.97
+142,bloom1_7b,typo,1,xwinograd,67.16
+143,bloom1_7b,typo,1,SET AVG,54.443999999999996
+144,bloom1_7b,family,3,pawsx,51.71
+145,bloom1_7b,family,3,xcopa,56.330000000000005
+146,bloom1_7b,family,3,xnli,39.6
+147,bloom1_7b,family,3,xstorycloze,57.66
+148,bloom1_7b,family,3,xwinograd,68.17
+149,bloom1_7b,family,3,SET AVG,54.694
+150,bloom1_7b,family,2,pawsx,51.800000000000004
+151,bloom1_7b,family,2,xcopa,56.16
+152,bloom1_7b,family,2,xnli,39.79
+153,bloom1_7b,family,2,xstorycloze,58.02
+154,bloom1_7b,family,2,xwinograd,67.41
+155,bloom1_7b,family,2,SET AVG,54.636
+156,bloom1_7b,family,1,pawsx,52.459999999999994
+157,bloom1_7b,family,1,xcopa,56.089999999999996
+158,bloom1_7b,family,1,xnli,39.589999999999996
+159,bloom1_7b,family,1,xstorycloze,57.43000000000001
+160,bloom1_7b,family,1,xwinograd,67.97
+161,bloom1_7b,family,1,SET AVG,54.70799999999999
+162,bloom1_7b,all,3,pawsx,51.64
+163,bloom1_7b,all,3,xcopa,56.379999999999995
+164,bloom1_7b,all,3,xnli,40.0
+165,bloom1_7b,all,3,xstorycloze,58.269999999999996
+166,bloom1_7b,all,3,xwinograd,67.16
+167,bloom1_7b,all,3,SET AVG,54.68999999999998
+168,bloom1_7b,all,2,pawsx,51.739999999999995
+169,bloom1_7b,all,2,xcopa,56.24
+170,bloom1_7b,all,2,xnli,40.2
+171,bloom1_7b,all,2,xstorycloze,58.29
+172,bloom1_7b,all,2,xwinograd,67.54
+173,bloom1_7b,all,2,SET AVG,54.802
+174,bloom1_7b,all,1,pawsx,51.980000000000004
+175,bloom1_7b,all,1,xcopa,56.24
+176,bloom1_7b,all,1,xnli,40.28
+177,bloom1_7b,all,1,xstorycloze,58.19
+178,bloom1_7b,all,1,xwinograd,67.36
+179,bloom1_7b,all,1,SET AVG,54.81
+180,bloom1_7b,random,1,pawsx,51.01
+181,bloom1_7b,random,1,xcopa,56.00000000000001
+182,bloom1_7b,random,1,xnli,39.800000000000004
+183,bloom1_7b,random,1,xstorycloze,57.879999999999995
+184,bloom1_7b,random,1,xwinograd,67.34
+185,bloom1_7b,random,1,SET AVG,54.40599999999999
+186,bloom1_7b,random,2,pawsx,50.449999999999996
+187,bloom1_7b,random,2,xcopa,55.76
+188,bloom1_7b,random,2,xnli,40.0
+189,bloom1_7b,random,2,xstorycloze,57.65
+190,bloom1_7b,random,2,xwinograd,67.5
+191,bloom1_7b,random,2,SET AVG,54.272000000000006
+192,bloom1_7b,random,3,pawsx,51.99
+193,bloom1_7b,random,3,xcopa,55.800000000000004
+194,bloom1_7b,random,3,xnli,40.12
+195,bloom1_7b,random,3,xstorycloze,57.85
+196,bloom1_7b,random,3,xwinograd,67.25
+197,bloom1_7b,random,3,SET AVG,54.602
+198,bloom1_7b,semantic,2,pawsx,52.94
+199,bloom1_7b,semantic,2,xcopa,56.04
+200,bloom1_7b,semantic,2,xnli,39.879999999999995
+201,bloom1_7b,semantic,2,xstorycloze,57.50999999999999
+202,bloom1_7b,semantic,2,xwinograd,67.67999999999999
+203,bloom1_7b,semantic,2,SET AVG,54.80999999999999
+204,bloom1_7b,semantic,3,pawsx,52.480000000000004
+205,bloom1_7b,semantic,3,xcopa,55.910000000000004
+206,bloom1_7b,semantic,3,xnli,40.11
+207,bloom1_7b,semantic,3,xstorycloze,57.38999999999999
+208,bloom1_7b,semantic,3,xwinograd,67.75
+209,bloom1_7b,semantic,3,SET AVG,54.727999999999994
+210,bloom1_7b,semantic,1,pawsx,52.480000000000004
+211,bloom1_7b,semantic,1,xcopa,55.800000000000004
+212,bloom1_7b,semantic,1,xnli,39.57
+213,bloom1_7b,semantic,1,xstorycloze,57.8
+214,bloom1_7b,semantic,1,xwinograd,67.03
+215,bloom1_7b,semantic,1,SET AVG,54.53599999999999
+216,bloom1_7b,learned,2,pawsx,51.81
+217,bloom1_7b,learned,2,xcopa,56.220000000000006
+218,bloom1_7b,learned,2,xnli,40.08
+219,bloom1_7b,learned,2,xstorycloze,57.95
+220,bloom1_7b,learned,2,xwinograd,67.17999999999999
+221,bloom1_7b,learned,2,SET AVG,54.648
+222,bloom1_7b,learned,3,pawsx,51.970000000000006
+223,bloom1_7b,learned,3,xcopa,55.93
+224,bloom1_7b,learned,3,xnli,40.08
+225,bloom1_7b,learned,3,xstorycloze,57.82000000000001
+226,bloom1_7b,learned,3,xwinograd,68.02
+227,bloom1_7b,learned,3,SET AVG,54.763999999999996
+228,bloom1_7b,learned,1,pawsx,51.44
+229,bloom1_7b,learned,1,xcopa,56.11000000000001
+230,bloom1_7b,learned,1,xnli,39.910000000000004
+231,bloom1_7b,learned,1,xstorycloze,58.17
+232,bloom1_7b,learned,1,xwinograd,67.27
+233,bloom1_7b,learned,1,SET AVG,54.58
+234,bloom1_7b,geo,3,pawsx,50.760000000000005
+235,bloom1_7b,geo,3,xcopa,56.00000000000001
+236,bloom1_7b,geo,3,xnli,40.129999999999995
+237,bloom1_7b,geo,3,xstorycloze,58.24
+238,bloom1_7b,geo,3,xwinograd,67.75
+239,bloom1_7b,geo,3,SET AVG,54.576
+240,bloom1_7b,geo,1,pawsx,50.99
+241,bloom1_7b,geo,1,xcopa,56.24
+242,bloom1_7b,geo,1,xnli,39.839999999999996
+243,bloom1_7b,geo,1,xstorycloze,58.26
+244,bloom1_7b,geo,1,xwinograd,67.14
+245,bloom1_7b,geo,1,SET AVG,54.49399999999999
+246,bloom1_7b,geo,2,pawsx,50.849999999999994
+247,bloom1_7b,geo,2,xcopa,55.96
+248,bloom1_7b,geo,2,xnli,40.18
+249,bloom1_7b,geo,2,xstorycloze,58.220000000000006
+250,bloom1_7b,geo,2,xwinograd,68.17
+251,bloom1_7b,geo,2,SET AVG,54.676
+252,mt5,geo,1,pawsx,52.290000000000006
+253,mt5,geo,1,xcopa,53.13
+254,mt5,geo,1,xnli,36.74
+255,mt5,geo,1,xstorycloze,52.849999999999994
+256,mt5,geo,1,xwinograd,50.19
+257,mt5,geo,1,SET AVG,49.040000000000006
+258,mt5,geo,2,pawsx,51.690000000000005
+259,mt5,geo,2,xcopa,53.25
+260,mt5,geo,2,xnli,37.01
+261,mt5,geo,2,xstorycloze,52.129999999999995
+262,mt5,geo,2,xwinograd,49.9
+263,mt5,geo,2,SET AVG,48.796
+264,mt5,geo,3,pawsx,52.349999999999994
+265,mt5,geo,3,xcopa,53.31
+266,mt5,geo,3,xnli,36.97
+267,mt5,geo,3,xstorycloze,52.839999999999996
+268,mt5,geo,3,xwinograd,50.51
+269,mt5,geo,3,SET AVG,49.196
+270,mt5,all,3,pawsx,50.41
+271,mt5,all,3,xcopa,54.11
+272,mt5,all,3,xnli,36.41
+273,mt5,all,3,xstorycloze,52.300000000000004
+274,mt5,all,3,xwinograd,50.06
+275,mt5,all,3,SET AVG,48.658
+276,mt5,all,2,pawsx,50.59
+277,mt5,all,2,xcopa,53.38
+278,mt5,all,2,xnli,36.26
+279,mt5,all,2,xstorycloze,52.23
+280,mt5,all,2,xwinograd,50.71
+281,mt5,all,2,SET AVG,48.634
+282,mt5,all,1,pawsx,51.29
+283,mt5,all,1,xcopa,53.44
+284,mt5,all,1,xnli,36.8
+285,mt5,all,1,xstorycloze,52.400000000000006
+286,mt5,all,1,xwinograd,50.39
+287,mt5,all,1,SET AVG,48.864
+288,mt5,semantic,1,pawsx,51.92
+289,mt5,semantic,1,xcopa,53.22
+290,mt5,semantic,1,xnli,36.15
+291,mt5,semantic,1,xstorycloze,52.459999999999994
+292,mt5,semantic,1,xwinograd,51.4
+293,mt5,semantic,1,SET AVG,49.03
+294,mt5,semantic,3,pawsx,51.4
+295,mt5,semantic,3,xcopa,53.400000000000006
+296,mt5,semantic,3,xnli,36.59
+297,mt5,semantic,3,xstorycloze,52.459999999999994
+298,mt5,semantic,3,xwinograd,50.57000000000001
+299,mt5,semantic,3,SET AVG,48.884
+300,mt5,semantic,2,pawsx,51.559999999999995
+301,mt5,semantic,2,xcopa,53.44
+302,mt5,semantic,2,xnli,36.480000000000004
+303,mt5,semantic,2,xstorycloze,52.23
+304,mt5,semantic,2,xwinograd,49.88
+305,mt5,semantic,2,SET AVG,48.718
+306,mt5,typo,2,pawsx,51.33
+307,mt5,typo,2,xcopa,53.449999999999996
+308,mt5,typo,2,xnli,36.78
+309,mt5,typo,2,xstorycloze,52.5
+310,mt5,typo,2,xwinograd,49.99
+311,mt5,typo,2,SET AVG,48.81
+312,mt5,typo,1,pawsx,51.31
+313,mt5,typo,1,xcopa,53.02
+314,mt5,typo,1,xnli,36.480000000000004
+315,mt5,typo,1,xstorycloze,52.739999999999995
+316,mt5,typo,1,xwinograd,50.480000000000004
+317,mt5,typo,1,SET AVG,48.806000000000004
+318,mt5,typo,3,pawsx,51.559999999999995
+319,mt5,typo,3,xcopa,53.18000000000001
+320,mt5,typo,3,xnli,36.61
+321,mt5,typo,3,xstorycloze,52.5
+322,mt5,typo,3,xwinograd,49.81
+323,mt5,typo,3,SET AVG,48.732000000000006
+324,mt5,random,1,pawsx,50.94
+325,mt5,random,1,xcopa,53.15
+326,mt5,random,1,xnli,36.730000000000004
+327,mt5,random,1,xstorycloze,52.239999999999995
+328,mt5,random,1,xwinograd,49.830000000000005
+329,mt5,random,1,SET AVG,48.578
+330,mt5,random,2,pawsx,52.23
+331,mt5,random,2,xcopa,52.89
+332,mt5,random,2,xnli,36.96
+333,mt5,random,2,xstorycloze,52.49
+334,mt5,random,2,xwinograd,49.61
+335,mt5,random,2,SET AVG,48.836
+336,mt5,random,3,pawsx,52.059999999999995
+337,mt5,random,3,xcopa,53.269999999999996
+338,mt5,random,3,xnli,36.88
+339,mt5,random,3,xstorycloze,52.66
+340,mt5,random,3,xwinograd,50.21
+341,mt5,random,3,SET AVG,49.016
+342,mt5,learned,1,pawsx,51.839999999999996
+343,mt5,learned,1,xcopa,53.25
+344,mt5,learned,1,xnli,36.919999999999995
+345,mt5,learned,1,xstorycloze,52.7
+346,mt5,learned,1,xwinograd,49.669999999999995
+347,mt5,learned,1,SET AVG,48.87599999999999
+348,mt5,learned,3,pawsx,52.01
+349,mt5,learned,3,xcopa,53.669999999999995
+350,mt5,learned,3,xnli,36.480000000000004
+351,mt5,learned,3,xstorycloze,52.64
+352,mt5,learned,3,xwinograd,49.04
+353,mt5,learned,3,SET AVG,48.768
+354,mt5,learned,2,pawsx,51.21
+355,mt5,learned,2,xcopa,53.510000000000005
+356,mt5,learned,2,xnli,36.66
+357,mt5,learned,2,xstorycloze,52.53
+358,mt5,learned,2,xwinograd,50.239999999999995
+359,mt5,learned,2,SET AVG,48.83
+360,mt5,family,1,pawsx,52.51
+361,mt5,family,1,xcopa,53.800000000000004
+362,mt5,family,1,xnli,36.02
+363,mt5,family,1,xstorycloze,52.44
+364,mt5,family,1,xwinograd,51.11
+365,mt5,family,1,SET AVG,49.176
+366,mt5,family,2,pawsx,52.39
+367,mt5,family,2,xcopa,53.559999999999995
+368,mt5,family,2,xnli,36.33
+369,mt5,family,2,xstorycloze,52.71
+370,mt5,family,2,xwinograd,50.28
+371,mt5,family,2,SET AVG,49.053999999999995
+372,mt5,family,3,pawsx,51.93
+373,mt5,family,3,xcopa,53.800000000000004
+374,mt5,family,3,xnli,36.02
+375,mt5,family,3,xstorycloze,52.61
+376,mt5,family,3,xwinograd,51.629999999999995
+377,mt5,family,3,SET AVG,49.198
+378,mgpt,semantic,1,pawsx,50.09
+379,mgpt,semantic,1,xcopa,55.730000000000004
+380,mgpt,semantic,1,xnli,40.86
+381,mgpt,semantic,1,xstorycloze,56.24
+382,mgpt,semantic,1,xwinograd,60.35
+383,mgpt,semantic,1,SET AVG,52.65400000000001
+384,mgpt,semantic,2,pawsx,48.35
+385,mgpt,semantic,2,xcopa,55.69
+386,mgpt,semantic,2,xnli,40.760000000000005
+387,mgpt,semantic,2,xstorycloze,56.19
+388,mgpt,semantic,2,xwinograd,60.64000000000001
+389,mgpt,semantic,2,SET AVG,52.326
+390,mgpt,semantic,3,pawsx,49.059999999999995
+391,mgpt,semantic,3,xcopa,55.42
+392,mgpt,semantic,3,xnli,40.69
+393,mgpt,semantic,3,xstorycloze,55.98
+394,mgpt,semantic,3,xwinograd,60.709999999999994
+395,mgpt,semantic,3,SET AVG,52.37199999999999
+396,mgpt,learned,3,pawsx,49.04
+397,mgpt,learned,3,xcopa,56.05
+398,mgpt,learned,3,xnli,40.8
+399,mgpt,learned,3,xstorycloze,56.21000000000001
+400,mgpt,learned,3,xwinograd,61.07
+401,mgpt,learned,3,SET AVG,52.634
+402,mgpt,learned,1,pawsx,48.54
+403,mgpt,learned,1,xcopa,56.07
+404,mgpt,learned,1,xnli,40.65
+405,mgpt,learned,1,xstorycloze,56.21000000000001
+406,mgpt,learned,1,xwinograd,60.24
+407,mgpt,learned,1,SET AVG,52.342
+408,mgpt,learned,2,pawsx,49.18
+409,mgpt,learned,2,xcopa,55.730000000000004
+410,mgpt,learned,2,xnli,40.46
+411,mgpt,learned,2,xstorycloze,56.02
+412,mgpt,learned,2,xwinograd,60.67
+413,mgpt,learned,2,SET AVG,52.412
+414,mgpt,geo,1,pawsx,51.1
+415,mgpt,geo,1,xcopa,55.88999999999999
+416,mgpt,geo,1,xnli,40.89
+417,mgpt,geo,1,xstorycloze,56.39999999999999
+418,mgpt,geo,1,xwinograd,61.09
+419,mgpt,geo,1,SET AVG,53.074
+420,mgpt,geo,2,pawsx,48.99
+421,mgpt,geo,2,xcopa,55.82
+422,mgpt,geo,2,xnli,41.120000000000005
+423,mgpt,geo,2,xstorycloze,56.3
+424,mgpt,geo,2,xwinograd,61.199999999999996
+425,mgpt,geo,2,SET AVG,52.686
+426,mgpt,geo,3,pawsx,49.81
+427,mgpt,geo,3,xcopa,55.47
+428,mgpt,geo,3,xnli,41.03
+429,mgpt,geo,3,xstorycloze,56.34
+430,mgpt,geo,3,xwinograd,60.85
+431,mgpt,geo,3,SET AVG,52.7
+432,mgpt,typo,1,pawsx,50.01
+433,mgpt,typo,1,xcopa,56.089999999999996
+434,mgpt,typo,1,xnli,40.98
+435,mgpt,typo,1,xstorycloze,56.37
+436,mgpt,typo,1,xwinograd,60.62
+437,mgpt,typo,1,SET AVG,52.814
+438,mgpt,typo,2,pawsx,49.14
+439,mgpt,typo,2,xcopa,55.669999999999995
+440,mgpt,typo,2,xnli,40.75
+441,mgpt,typo,2,xstorycloze,56.32
+442,mgpt,typo,2,xwinograd,60.01
+443,mgpt,typo,2,SET AVG,52.378
+444,mgpt,typo,3,pawsx,48.35
+445,mgpt,typo,3,xcopa,56.04
+446,mgpt,typo,3,xnli,40.78
+447,mgpt,typo,3,xstorycloze,56.04
+448,mgpt,typo,3,xwinograd,60.550000000000004
+449,mgpt,typo,3,SET AVG,52.352
+450,mgpt,random,1,pawsx,49.01
+451,mgpt,random,1,xcopa,56.2
+452,mgpt,random,1,xnli,40.81
+453,mgpt,random,1,xstorycloze,56.13
+454,mgpt,random,1,xwinograd,60.69
+455,mgpt,random,1,SET AVG,52.568000000000005
+456,mgpt,random,3,pawsx,48.26
+457,mgpt,random,3,xcopa,55.779999999999994
+458,mgpt,random,3,xnli,40.63
+459,mgpt,random,3,xstorycloze,55.94
+460,mgpt,random,3,xwinograd,60.8
+461,mgpt,random,3,SET AVG,52.282
+462,mgpt,random,2,pawsx,48.86
+463,mgpt,random,2,xcopa,55.75
+464,mgpt,random,2,xnli,40.69
+465,mgpt,random,2,xstorycloze,55.85
+466,mgpt,random,2,xwinograd,60.85
+467,mgpt,random,2,SET AVG,52.4
+468,mgpt,family,3,pawsx,49.66
+469,mgpt,family,3,xcopa,55.669999999999995
+470,mgpt,family,3,xnli,40.29
+471,mgpt,family,3,xstorycloze,55.730000000000004
+472,mgpt,family,3,xwinograd,60.440000000000005
+473,mgpt,family,3,SET AVG,52.35799999999999
+474,mgpt,family,1,pawsx,50.39
+475,mgpt,family,1,xcopa,55.55
+476,mgpt,family,1,xnli,40.28
+477,mgpt,family,1,xstorycloze,55.510000000000005
+478,mgpt,family,1,xwinograd,60.940000000000005
+479,mgpt,family,1,SET AVG,52.534000000000006
+480,mgpt,family,2,pawsx,49.01
+481,mgpt,family,2,xcopa,56.24
+482,mgpt,family,2,xnli,40.23
+483,mgpt,family,2,xstorycloze,56.18
+484,mgpt,family,2,xwinograd,61.27
+485,mgpt,family,2,SET AVG,52.586
+486,mgpt,all,3,pawsx,49.94
+487,mgpt,all,3,xcopa,55.85
+488,mgpt,all,3,xnli,41.19
+489,mgpt,all,3,xstorycloze,56.010000000000005
+490,mgpt,all,3,xwinograd,60.550000000000004
+491,mgpt,all,3,SET AVG,52.708000000000006
+492,mgpt,all,2,pawsx,50.260000000000005
+493,mgpt,all,2,xcopa,55.85
+494,mgpt,all,2,xnli,41.21
+495,mgpt,all,2,xstorycloze,55.98
+496,mgpt,all,2,xwinograd,60.46
+497,mgpt,all,2,SET AVG,52.751999999999995
+498,mgpt,all,1,pawsx,50.22
+499,mgpt,all,1,xcopa,55.75
+500,mgpt,all,1,xnli,41.28
+501,mgpt,all,1,xstorycloze,55.95
+502,mgpt,all,1,xwinograd,60.309999999999995
+503,mgpt,all,1,SET AVG,52.702
+504,bloom7b,geo,1,pawsx,48.32
+505,bloom7b,geo,1,xcopa,58.13
+506,bloom7b,geo,1,xnli,41.03
+507,bloom7b,geo,1,xstorycloze,62.129999999999995
+508,bloom7b,geo,1,xwinograd,74.38
+509,bloom7b,geo,1,SET AVG,56.798
+510,bloom7b,geo,2,pawsx,47.64
+511,bloom7b,geo,2,xcopa,57.82000000000001
+512,bloom7b,geo,2,xnli,41.54
+513,bloom7b,geo,2,xstorycloze,62.03999999999999
+514,bloom7b,geo,2,xwinograd,74.33
+515,bloom7b,geo,2,SET AVG,56.674
+516,bloom7b,geo,3,pawsx,48.010000000000005
+517,bloom7b,geo,3,xcopa,57.95
+518,bloom7b,geo,3,xnli,41.15
+519,bloom7b,geo,3,xstorycloze,62.29
+520,bloom7b,geo,3,xwinograd,73.18
+521,bloom7b,geo,3,SET AVG,56.516000000000005
+522,bloom7b,semantic,2,pawsx,47.14
+523,bloom7b,semantic,2,xcopa,58.040000000000006
+524,bloom7b,semantic,2,xnli,41.33
+525,bloom7b,semantic,2,xstorycloze,61.47
+526,bloom7b,semantic,2,xwinograd,74.22
+527,bloom7b,semantic,2,SET AVG,56.44
+528,bloom7b,semantic,3,pawsx,47.510000000000005
+529,bloom7b,semantic,3,xcopa,57.76
+530,bloom7b,semantic,3,xnli,40.94
+531,bloom7b,semantic,3,xstorycloze,61.150000000000006
+532,bloom7b,semantic,3,xwinograd,74.17
+533,bloom7b,semantic,3,SET AVG,56.306000000000004
+534,bloom7b,semantic,1,pawsx,47.39
+535,bloom7b,semantic,1,xcopa,58.29
+536,bloom7b,semantic,1,xnli,41.3
+537,bloom7b,semantic,1,xstorycloze,61.7
+538,bloom7b,semantic,1,xwinograd,74.08
+539,bloom7b,semantic,1,SET AVG,56.552
+540,bloom7b,typo,1,pawsx,47.82
+541,bloom7b,typo,1,xcopa,58.330000000000005
+542,bloom7b,typo,1,xnli,41.91
+543,bloom7b,typo,1,xstorycloze,61.980000000000004
+544,bloom7b,typo,1,xwinograd,73.68
+545,bloom7b,typo,1,SET AVG,56.74400000000001
+546,bloom7b,typo,3,pawsx,47.61
+547,bloom7b,typo,3,xcopa,58.02
+548,bloom7b,typo,3,xnli,41.28
+549,bloom7b,typo,3,xstorycloze,61.809999999999995
+550,bloom7b,typo,3,xwinograd,74.31
+551,bloom7b,typo,3,SET AVG,56.605999999999995
+552,bloom7b,typo,2,pawsx,47.83
+553,bloom7b,typo,2,xcopa,57.91
+554,bloom7b,typo,2,xnli,41.699999999999996
+555,bloom7b,typo,2,xstorycloze,62.019999999999996
+556,bloom7b,typo,2,xwinograd,74.51
+557,bloom7b,typo,2,SET AVG,56.794
+558,bloom7b,family,1,pawsx,48.83
+559,bloom7b,family,1,xcopa,58.040000000000006
+560,bloom7b,family,1,xnli,40.949999999999996
+561,bloom7b,family,1,xstorycloze,61.18
+562,bloom7b,family,1,xwinograd,74.13
+563,bloom7b,family,1,SET AVG,56.626
+564,bloom7b,family,2,pawsx,46.989999999999995
+565,bloom7b,family,2,xcopa,57.91
+566,bloom7b,family,2,xnli,41.120000000000005
+567,bloom7b,family,2,xstorycloze,61.550000000000004
+568,bloom7b,family,2,xwinograd,73.63
+569,bloom7b,family,2,SET AVG,56.239999999999995
+570,bloom7b,family,3,pawsx,47.81
+571,bloom7b,family,3,xcopa,57.91
+572,bloom7b,family,3,xnli,41.48
+573,bloom7b,family,3,xstorycloze,61.75000000000001
+574,bloom7b,family,3,xwinograd,74.24
+575,bloom7b,family,3,SET AVG,56.638
+576,bloom7b,random,3,pawsx,47.9
+577,bloom7b,random,3,xcopa,57.76
+578,bloom7b,random,3,xnli,41.71
+579,bloom7b,random,3,xstorycloze,61.8
+580,bloom7b,random,3,xwinograd,73.79
+581,bloom7b,random,3,SET AVG,56.592000000000006
+582,bloom7b,random,2,pawsx,48.13
+583,bloom7b,random,2,xcopa,58.050000000000004
+584,bloom7b,random,2,xnli,41.67
+585,bloom7b,random,2,xstorycloze,61.59
+586,bloom7b,random,2,xwinograd,73.9
+587,bloom7b,random,2,SET AVG,56.668000000000006
+588,bloom7b,random,1,pawsx,46.04
+589,bloom7b,random,1,xcopa,57.36
+590,bloom7b,random,1,xnli,41.52
+591,bloom7b,random,1,xstorycloze,61.8
+592,bloom7b,random,1,xwinograd,74.03999999999999
+593,bloom7b,random,1,SET AVG,56.152
+594,bloom7b,all,2,pawsx,47.8
+595,bloom7b,all,2,xcopa,58.220000000000006
+596,bloom7b,all,2,xnli,40.93
+597,bloom7b,all,2,xstorycloze,62.08
+598,bloom7b,all,2,xwinograd,73.68
+599,bloom7b,all,2,SET AVG,56.54200000000001
+600,bloom7b,all,3,pawsx,47.14
+601,bloom7b,all,3,xcopa,57.95
+602,bloom7b,all,3,xnli,40.760000000000005
+603,bloom7b,all,3,xstorycloze,62.03999999999999
+604,bloom7b,all,3,xwinograd,73.81
+605,bloom7b,all,3,SET AVG,56.34000000000001
+606,bloom7b,all,1,pawsx,47.449999999999996
+607,bloom7b,all,1,xcopa,58.379999999999995
+608,bloom7b,all,1,xnli,40.94
+609,bloom7b,all,1,xstorycloze,61.980000000000004
+610,bloom7b,all,1,xwinograd,73.63
+611,bloom7b,all,1,SET AVG,56.476
+612,bloom7b,learned,2,pawsx,46.400000000000006
+613,bloom7b,learned,2,xcopa,58.15
+614,bloom7b,learned,2,xnli,41.349999999999994
+615,bloom7b,learned,2,xstorycloze,61.94
+616,bloom7b,learned,2,xwinograd,74.29
+617,bloom7b,learned,2,SET AVG,56.426
+618,bloom7b,learned,1,pawsx,46.51
+619,bloom7b,learned,1,xcopa,58.10999999999999
+620,bloom7b,learned,1,xnli,41.47
+621,bloom7b,learned,1,xstorycloze,61.96
+622,bloom7b,learned,1,xwinograd,74.06
+623,bloom7b,learned,1,SET AVG,56.422000000000004
+624,bloom7b,learned,3,pawsx,47.74
+625,bloom7b,learned,3,xcopa,57.98
+626,bloom7b,learned,3,xnli,40.96
+627,bloom7b,learned,3,xstorycloze,61.99
+628,bloom7b,learned,3,xwinograd,74.17
+629,bloom7b,learned,3,SET AVG,56.568000000000005
