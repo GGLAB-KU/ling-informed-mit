@@ -1,7 +1,7 @@
 import os
 import re
 
-root_directory = '/home/gsoykan/Desktop/dev/multilingual-adapters/src/instruction_tuning/scripts/rebuttal'
+root_directory = '/home/gsoykan/Desktop/dev/multilingual-adapters/src/instruction_tuning/scripts/analysis'
 new_files_directory = '/path/to/where/you/want/new/scripts/'  # Update this with the correct path
 
 

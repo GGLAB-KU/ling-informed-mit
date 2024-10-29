@@ -7,7 +7,7 @@ import tempfile
 def submit_job_for_experiment(template_path,
                               exp_name,
                               script_name,
-                              rebuttal_model_alias: str,
+                              analysis_model_alias: str,
                               num_gpus: int,
                               use_a40: bool = False):
     with open(template_path, 'r') as file:
@@ -16,7 +16,7 @@ def submit_job_for_experiment(template_path,
     modified_script = template.replace('--job-name=<tmp>', f'--job-name={exp_name}')
     modified_script = modified_script.replace('--output=<tmp>.log', f'--output={exp_name}.log')
     modified_script = modified_script.replace('sh ./scripts/<tmp>.sh',
-                                              f'sh ./scripts/rebuttal/{rebuttal_model_alias}/{script_name}.sh')
+                                              f'sh ./scripts/analysis/{analysis_model_alias}/{script_name}.sh')
     modified_script = modified_script.replace('--gres=gpu:1', f'--gres=gpu:{str(num_gpus)}')
 
     if use_a40:
@@ -48,10 +48,10 @@ if __name__ == '__main__':
                         type=str,
                         required=True,
                         help='Script name')
-    parser.add_argument('--rebuttal_model_alias',
+    parser.add_argument('--analysis_model_alias',
                         type=str,
                         required=True,
-                        help='Rebuttal Model Alias')
+                        help='Analysis Model Alias')
     parser.add_argument('--use_a40',
                         action='store_true',  # This makes it a boolean flag
                         help='Use this flag to indicate the use of A40 GPU')
@@ -66,6 +66,6 @@ if __name__ == '__main__':
     submit_job_for_experiment(template_path,
                               args.exp_name,
                               args.script_name,
-                              args.rebuttal_model_alias,
+                              args.analysis_model_alias,
                               args.num_gpus,
                               args.use_a40)

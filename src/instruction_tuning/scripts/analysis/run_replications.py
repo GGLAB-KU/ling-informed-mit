@@ -25,7 +25,7 @@ def generate_commands(script_dir, model_id):
 
             script_name = script_file[:-3]
 
-            command = f"python run_experiment_with_template_rebuttal.py --exp_name {exp_name} --script_name {script_name} --rebuttal_model_alias {model_id}"
+            command = f"python run_experiment_with_template_analysis.py --exp_name {exp_name} --script_name {script_name} --analysis_model_alias {model_id}"
 
             if model_id not in ['bloom7b', 'mt5']:
                 command += " --use_a40"
@@ -41,7 +41,7 @@ def generate_commands(script_dir, model_id):
 
 
 # you should run this from src/instruction_tuning/scripts
-# python ./rebuttal/run_replications.py --model bloom3b
+# python ./analysis/run_replications.py --model bloom3b
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run experiments for a given model.')
     parser.add_argument('--model',
@@ -55,8 +55,8 @@ if __name__ == '__main__':
     model_identifier = args.model
 
     if os.getenv("ON_CLUSTER") == "False":
-        script_directory = f'/home/gsoykan/Desktop/dev/multilingual-adapters/src/instruction_tuning/scripts/rebuttal/{model_identifier}'
+        script_directory = f'/home/gsoykan/Desktop/dev/multilingual-adapters/src/instruction_tuning/scripts/analysis/{model_identifier}'
     else:
-        script_directory = f'./rebuttal/{model_identifier}'
+        script_directory = f'./analysis/{model_identifier}'
 
     generate_commands(script_directory, model_identifier)

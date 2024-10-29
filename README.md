@@ -57,6 +57,7 @@ Key files for this algorithm are:
 
 ### Running the Experiments
 
+# TODO: @gsoykan - delete this disclaimer...
 Note that some folder names, such as `rebuttal` and `journal_submission`, may be misleading due to the dependency of our
 scripts on these names. If you wish to rename them, ensure that the related run scripts are also updated.
 
@@ -68,7 +69,7 @@ SLURM cluster, and job scripts are provided to help you get started.
 
 Three sets of experiments are available under `src/instruction_tuning/scripts`:
 
-- **rebuttal**: Contains scripts for "Section 7: Analysis and Discussion" (excluding Section 7.3).
+- **analysis**: Contains scripts for "Section 7: Analysis and Discussion" (excluding Section 7.3).
 - **geo_varying_langs**: Contains scripts for "Section 7.3: Effect of Varying Number of Languages."
 - **journal_submission**: Contains scripts for "Section 6: Results," covering our main results.
 
