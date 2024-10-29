@@ -41,7 +41,7 @@ def generate_commands(script_dir, model_id):
                            incomplete_log_components)):
                 continue
 
-            command = f"python run_experiment_with_template_journal.py --exp_name {exp_name} --script_name {script_name} --model_alias {model_id}"
+            command = f"python run_experiment_with_template_main_results.py --exp_name {exp_name} --script_name {script_name} --model_alias {model_id}"
 
             if model_id not in ['bloom7b', 'mt5']:
                 command += " --use_a40"
@@ -57,7 +57,7 @@ def generate_commands(script_dir, model_id):
 
 
 # you should run this from src/instruction_tuning/scripts
-# python ./journal_submission/run_replications.py --model bloom3b
+# python ./main_results/run_replications.py --model bloom3b
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run experiments for a given model.')
     parser.add_argument('--model',
@@ -71,8 +71,8 @@ if __name__ == '__main__':
     model_identifier = args.model
 
     if os.getenv("ON_CLUSTER") == "False":
-        script_directory = f'/home/gsoykan/Desktop/dev/multilingual-adapters/src/instruction_tuning/scripts/journal_submission/{model_identifier}'
+        script_directory = f'/home/gsoykan/Desktop/dev/multilingual-adapters/src/instruction_tuning/scripts/main_results/{model_identifier}'
     else:
-        script_directory = f'./journal_submission/{model_identifier}'
+        script_directory = f'./main_results/{model_identifier}'
 
     generate_commands(script_directory, model_identifier)

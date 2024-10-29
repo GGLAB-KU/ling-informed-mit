@@ -16,7 +16,7 @@ def submit_job_for_experiment(template_path,
     modified_script = template.replace('--job-name=<tmp>', f'--job-name={exp_name}')
     modified_script = modified_script.replace('--output=<tmp>.log', f'--output={exp_name}.log')
     modified_script = modified_script.replace('sh ./scripts/<tmp>.sh',
-                                              f'sh ./scripts/journal_submission/{model_alias}/{script_name}.sh')
+                                              f'sh ./scripts/main_results/{model_alias}/{script_name}.sh')
     modified_script = modified_script.replace('--gres=gpu:1', f'--gres=gpu:{str(num_gpus)}')
 
     if use_a40:
@@ -38,7 +38,7 @@ def submit_job_for_experiment(template_path,
 
 
 # sample command => python
-# run_experiment_with_template_journal.py
+# run_experiment_with_template_main_results.py
 # --exp_name mgpt_ls_random
 # --script_name finetune_lang_selection_random_mgpt_cluster
 # --model_alias bloom1_7b

@@ -38,7 +38,7 @@ def submit_job_for_experiment(template_path,
 
 
 # sample command => python
-# run_experiment_with_template_journal.py
+# run_experiment_with_template_main_results.py
 # --exp_name mgpt_ls_random
 # --script_name finetune_lang_selection_random_mgpt_cluster
 # --model_alias bloom1_7b

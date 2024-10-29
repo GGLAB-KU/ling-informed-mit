@@ -57,10 +57,6 @@ Key files for this algorithm are:
 
 ### Running the Experiments
 
-# TODO: @gsoykan - delete this disclaimer...
-Note that some folder names, such as `rebuttal` and `journal_submission`, may be misleading due to the dependency of our
-scripts on these names. If you wish to rename them, ensure that the related run scripts are also updated.
-
 For running the experiments, you can find Python scripts and `.sh` files under `src/instruction_tuning`. We rely on a
 SLURM cluster, and job scripts are provided to help you get started.
 
@@ -71,13 +67,13 @@ Three sets of experiments are available under `src/instruction_tuning/scripts`:
 
 - **analysis**: Contains scripts for "Section 7: Analysis and Discussion" (excluding Section 7.3).
 - **geo_varying_langs**: Contains scripts for "Section 7.3: Effect of Varying Number of Languages."
-- **journal_submission**: Contains scripts for "Section 6: Results," covering our main results.
+- **main_results**: Contains scripts for "Section 6: Results," covering our main results.
 
 Each of these directories includes a `run_replications.py` script that calls the relevant experiment script (e.g.,
 `run_experiment_with_template_{exp_type}.py`).
 
 If you want to run specific experiments individually, you can find them under each model directory (e.g.,
-`src/instruction_tuning/scripts/journal_submission/bloom3b/finetune_lang_selection_typo_1.sh` runs the Bloom 3B model
+`src/instruction_tuning/scripts/main_results/bloom3b/finetune_lang_selection_typo_1.sh` runs the Bloom 3B model
 with a subset based on the "Typological Feature Vector (TYPO)").
 
 ### Notebooks and Formatted Results
@@ -95,9 +91,9 @@ with a subset based on the "Typological Feature Vector (TYPO)").
 
 Raw experiment logs can be found under `./data/exp_logs`. This directory contains:
 
-- `./data/exp_logs/additional_exp_logs`: Logs for "Section 7: Analysis and Discussion" (excluding Section 7.3).
+- `./data/exp_logs/analysis_exp_logs`: Logs for "Section 7: Analysis and Discussion" (excluding Section 7.3).
 - `./data/exp_logs/geo_varying_logs`: Logs for "Section 7.3: Effect of Varying Number of Languages."
-- `./data/exp_logs/journal_exp_logs`: Logs for "Section 6: Results" (main results).
+- `./data/exp_logs/main_results_exp_logs`: Logs for "Section 6: Results" (main results).
 
 The logs include `.log` files for our jobs on the SLURM cluster (Koç University’s HPC cluster). `lm-evaluation-harness`
 results are appended at the bottom of these logs in the following format:
